@@ -3,9 +3,9 @@ services:
   db:
     image: postgres:13.3
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: kazimzade98
-      POSTGRES_DB: cinemaapp
+      POSTGRES_USER: db_name
+      POSTGRES_PASSWORD: db-pass
+      POSTGRES_DB: 
     ports:
       - "5432:5432"
     volumes:
@@ -18,7 +18,7 @@ services:
       - db
     environment:
       SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/cinemaapp
-      SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: kazimzade98
+      SPRING_DATASOURCE_USERNAME: 
+      SPRING_DATASOURCE_PASSWORD: 
 volumes:
   db-data:
