@@ -2,11 +2,12 @@ package Cinema.app.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
@@ -39,7 +40,7 @@ public class MovieSession {
     @OneToMany(mappedBy = "movieSession", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Seat> seats;
 
-    private Double price;
+    private Integer price;
 
 
 }
