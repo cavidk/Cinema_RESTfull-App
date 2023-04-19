@@ -3,24 +3,24 @@
 Kinoteatr - RESTful Application
 Yazılacaq tətbiq Spring Boot -da olmalıdır və Java dilində yazılmalıdır
 Yazılacaq tətbiq OOP, KİSS, DRY, APO, YAGNİ və digər prinsiplərə uyğun olmalıdır.
-Məlumatlar verilənlər bazasında saxlanılmalıdır. Baza olaraq H2 istifadə edin.
+Məlumatlar verilənlər bazasında saxlanılmalıdır. Baza olaraq H2 istifadə edin.<br>
 ❗ Əgər Strong Junior, Middle və ya Senior səviyyəsinə iddialısınızsa
-bazanı qurmazdan öncə UML-dən istifadə edin.
+bazanı qurmazdan öncə UML-dən istifadə edin.<br>
 Layihəni test edə bilmək üçün demo məlumatlar daxil edilməlidir. (məs.
-CommandLineRunner vasitəsi ilə)
+CommandLineRunner vasitəsi ilə)<br>
 ❗ Əgər Strong Junior, Middle və ya Senior səviyyəsinə iddialısınızsa:
 demo məlumatların əlavə edilməsini db migration ilə realizə edin
-(flyway və ya liquibase)
+(flyway və ya liquibase)<br>
 Yazılmış tətbiqi test edə bilmək üçün Swagger UI əlavə edilməlidir ( springfox və
-ya springdoc ).
+ya springdoc ).<br>
 Layihəni test edə bilmək üçün bir neçə istifadəçi əlavə edin.
-Namizədlər üçün test tapşırıq 2
+Namizədlər üçün test tapşırıq 2<br>
 ❗ Əgər Strong Junior, Middle və ya Senior səviyyəsinə iddialısınızsa:
 istifadəçinin qeydiyyatı funksionallığını realizə edin. İstifadəçi adı
 və şifrə ilə jwt əldə etmək imkanı olmalıdır. AccessToken vaxtı
 bitdiyi halda refreshToken vasitəsi ilə yeni jwt əldə etmək imkanı
-olmalıdır.
-Swagger-də test üçün security sazlanmalıdır. Bunun üçün Spring
+olmalıdır.<br>
+  Swagger-də test üçün security sazlanmalıdır. Bunun üçün Spring
 Security qoşmağınız gərəkdir.
 İstifadəçidən qeydiyyat zamanı əldə ediləcək məlumatlar SAA,
 istifadəçi adı və şifrə
@@ -33,15 +33,16 @@ arası əlaqələri qurun.
 ❗ Relation-lar üçün fetchType.LAZY təyin edin və
 LazyİnitializationException istisnasının qarşısını alın
 
->> Kinoteatrda qeyd edilmiş entity-lər üzrə CRUD əməliyyatlar olmalıdır.
+>> Kinoteatrda qeyd edilmiş entity-lər üzrə CRUD əməliyyatlar olmalıdır.<br>
 |<>| Məsələn, kinoteatra yeni film əlavə etmək imkanı, əlavə edilmiş filmi redaktə
-etmək imkanı.
->> Filmlər üzrə axtarış etmək imkanı olmalıdır.
- Hər bir film üçün bilet əlavə etmək imkanı. Filmlər müxtəlif seanslarda
-göstərilə bilər. Məsələn, səhər və axşam. Bunun üçün seans əlavə etmək
-imkanı olmalıdır.
+etmək imkanı.<br>
+>> Filmlər üzrə axtarış etmək imkanı olmalıdır.<br>
+>> Hər bir film üçün bilet əlavə etmək imkanı. Filmlər müxtəlif seanslarda
+göstərilə bilər.<br>
+ ::Məsələn, səhər və axşam. Bunun üçün seans əlavə etmək
+imkanı olmalıdır.<br>
  Müxtəlif zallarda müxtəlif filmlər göstərilə bilər. Hər biz zalda oturacaq sayı
-məhduddur. Məsələn, 30.
+məhduddur. Məsələn, 30.<br>
  
  Namizədlər üçün test tapşırıq 3
 <h1> - OSİV antipattern-ni söndürün və yaranacaq problemləri həll edin.</h1>
