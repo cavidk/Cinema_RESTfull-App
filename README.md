@@ -29,9 +29,9 @@ Tətbiqin işlədiyi zamanı baş verə biləcək istisnalar nəzərə alınmal�
 hallarını düzgün şəkildə handle etməyiniz gərəkdir.
 Ən azı qeyd edilmiş entity-ləri əlavə edin. Ticket (bilet), Session (seans), Movie
 (film), Hall (zal) Seat (oturacaq), User (istifadəçi) - adlar fərqlənə bilər. Entity-lər
-arası əlaqələri qurun.
+arası əlaqələri qurun.<br>
 ❗ Relation-lar üçün fetchType.LAZY təyin edin və
-LazyİnitializationException istisnasının qarşısını alın
+LazyİnitializationException istisnasının qarşısını alın <br>
 
 >> Kinoteatrda qeyd edilmiş entity-lər üzrə CRUD əməliyyatlar olmalıdır.<br>
 |<>| Məsələn, kinoteatra yeni film əlavə etmək imkanı, əlavə edilmiş filmi redaktə
@@ -44,9 +44,9 @@ imkanı olmalıdır.<br>
  Müxtəlif zallarda müxtəlif filmlər göstərilə bilər. Hər biz zalda oturacaq sayı
 məhduddur. Məsələn, 30.<br>
  
- Namizədlər üçün test tapşırıq 3
-<h1> - OSİV antipattern-ni söndürün və yaranacaq problemləri həll edin.</h1>
-<h1> - Tətbiqdə biletin CRUD əməliyyatlardan əlavə olaraq alış-satış funksionallığını realizə edin.</h1>
+<h3> Namizədlər üçün test tapşırıq 3</h2>
+ - OSİV antipattern-ni söndürün və yaranacaq problemləri həll edin.<br>
+ - Tətbiqdə biletin CRUD əməliyyatlardan əlavə olaraq alış-satış funksionallığını realizə edin.<br>
 
   ::Process::
 >> İstifadəçinin balansı olmalıdır. Hər bir yeni qeydiyyatdan keçmiş
